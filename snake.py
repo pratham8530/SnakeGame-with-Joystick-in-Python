@@ -34,10 +34,10 @@ snake_speed = 10
 font_style = pygame.font.SysFont("bahnschrift", 35)
 timer_font = pygame.font.SysFont("bahnschrift", 30)
 
-snake_head_img = pygame.image.load("snake_head.png")
-snake_body_img = pygame.image.load("snake_body.png")
-apple_img = pygame.image.load("apple.jpg")
-powerup_img = pygame.image.load("powerup.png")
+snake_head_img = pygame.image.load("images/snake_head.png")
+snake_body_img = pygame.image.load("images/snake_body.png")
+apple_img = pygame.image.load("images/apple.jpg")
+powerup_img = pygame.image.load("images/powerup.png")
 
 snake_head_img = pygame.transform.scale(snake_head_img, (snake_block, snake_block))
 snake_body_img = pygame.transform.scale(snake_body_img, (snake_block, snake_block))
